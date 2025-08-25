@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter noise
+.ipynb_checkpoints/
+
+# Raw data (optional: keep private if too large)
+data/raw/*
+
+# Cache
+__pycache__/
